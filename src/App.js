@@ -17,7 +17,7 @@ function App() {
     setPasserr(false)
     setSuccess(false)
    }
-    else if(password.trim()!=confirmpass.trim()){
+    else if(password.trim()!==confirmpass.trim()){
       setPasserr(true)
       setError(false)
       setSuccess(false)
